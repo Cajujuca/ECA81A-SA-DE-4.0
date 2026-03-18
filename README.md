@@ -5,10 +5,10 @@
 * **Instituição:** Faculdade Enhenheiro Salvador Arena (FESA)
 * **Curso:** Engenharia de Controle e Automação
 * **Grupo:** Grupo 8
-* **Integrantes:** \* \[Nome Completo] - RA: \[000000]
+* **Integrantes:** Júlia Rodrigues Lima - RA: 062220026
 
-  * \[Nome Completo] - RA: \[000000]
-  * \[Nome Completo] - RA: \[000000]
+  * Gustavo Florencio Simeão - RA: 061230041
+  * Leonardo Rodolfo Bortoluci - RA: 062220014
 
 \---
 
@@ -16,7 +16,7 @@
 
 Selecione a trilha tecnológica do projeto (marque com um \[x]):
 
-* \[ ] **Saúde 4.0:** Robótica Assistiva (Controladores Inteligentes/Fuzzy)
+* \[x] **Saúde 4.0:** Robótica Assistiva (Controladores Inteligentes/Fuzzy)
 * \[ ] **Smart Grid:** Eficiência Energética e Descarbonização
 * \[ ] **Agtech:** Automação de Precisão e Visão Computacional
 * \[ ] **Logística Autônoma:** Coordenação de AGVs e Otimização de Rotas
@@ -84,24 +84,6 @@ Para reproduzir o ambiente e testar o diagnóstico:
 ```bash
    pip install -r requirements.txt
 
-
-Projeto: 
-
-1. Identificação do Grupo
-Instituição: 
-Curso:  
-Grupo: 
-Integrantes: Júlia Rodrigues Lima - RA: 062220026
-Gustavo Florencio Simeão - RA: 061230041
-Leonardo Rodolfo Bortoluci - RA: 062220014
----
-2. Área Problema Selecionada
-Selecione a trilha tecnológica do projeto (marque com um [x]):
-[x] Saúde 4.0: Robótica Assistiva (Controladores Inteligentes/Fuzzy)
-[ ] Smart Grid: Eficiência Energética e Descarbonização
-[ ] Agtech: Automação de Precisão e Visão Computacional
-[ ] Logística Autônoma: Coordenação de AGVs e Otimização de Rotas
----
 3. Diagnóstico e Definição do Agente
 
 Nesta seção, descrevemos o cenário de atuação e a modelagem do agente inteligente.
