@@ -1,4 +1,4 @@
-# Projeto: \[Saúde 4.0: Robótica Assistiva]
+# Projeto: \Saúde 4.0: Robótica Assistiva
 
 ### 1\. Identificação do Grupo
 
