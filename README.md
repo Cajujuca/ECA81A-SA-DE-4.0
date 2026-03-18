@@ -36,10 +36,11 @@ Devido à natureza não linear, dinâmica e incerta dos sistemas biomecânicos h
 
 |Componente|Descrição|
 |-|-|
-|**Performance (P)**|Critérios de sucesso (ex: precisão de acerto, kWh economizados).|
+|**Performance (P)**|Para que uma solução inteligente voltada a pacientes com Doença de Parkinson seja considerada bem-sucedida, o agente deve perseguir metas objetivas relacionadas à redução de sintomas, melhoria funcional e segurança clínica. A principal meta é reduzir significativamente a amplitude e a frequência do tremor sem prejudicar o movimento voluntário. Isso significa que o sistema deve ser capaz de identificar corretamente o tremor e aplicar compensação ativa apenas quando necessário. Um critério de sucesso mensurável seria, por exemplo, uma redução percentual consistente da amplitude do tremor medida por sensores inerciais, mantendo a fluidez do movimento intencional.
+|
 |**Ambiente (E)**|Onde o agente opera (ex: armazém simulado, rede elétrica).|
 |**Atuadores (A)**|Como o agente age (ex: acionamento de motores, válvulas).|
-|\*\*Sensores (S) \*\*|Como o agente percebe o ambiente (ex: câmeras, sensores de carga).|
+|**Sensores (S)**|Como o agente percebe o ambiente (ex: câmeras, sensores de carga).|
 
 \---
 
