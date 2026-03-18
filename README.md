@@ -1,10 +1,10 @@
-# Projeto: \Saúde 4.0: Robótica Assistiva
+# Projeto: Saúde 4.0: Robótica Assistiva
 
-### 1\. Identificação do Grupo
+### 1. Identificação do Grupo
 
-* **Instituição:** Centro Universitário da Fundação Santo André (FSA) / UNICID
-* **Curso:** \[Inserir Nome do Curso]
-* **Grupo:** \[Inserir Nome ou Número do Grupo]
+* **Instituição:** Faculdade Enhenheiro Salvador Arena (FESA)
+* **Curso:** Engenharia de Controle e Automação
+* **Grupo:** Grupo 8
 * **Integrantes:** \* \[Nome Completo] - RA: \[000000]
 
   * \[Nome Completo] - RA: \[000000]
@@ -88,9 +88,9 @@ Para reproduzir o ambiente e testar o diagnóstico:
 Projeto: 
 
 1. Identificação do Grupo
-Instituição: Faculdade Enhenheiro Salvador Arena (FESA)
-Curso: Engenharia de Controle e Automação 
-Grupo: Grupo 8
+Instituição: 
+Curso:  
+Grupo: 
 Integrantes: Júlia Rodrigues Lima - RA: 062220026
 Gustavo Florencio Simeão - RA: 061230041
 Leonardo Rodolfo Bortoluci - RA: 062220014
