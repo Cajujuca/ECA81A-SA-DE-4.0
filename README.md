@@ -43,13 +43,10 @@ As decisões são executadas por um controlador embarcado (microcontrolador ou p
 O sistema também utiliza feedback em malha fechada, com encoders e sensores de torque ou corrente, para garantir estabilidade e evitar sobrecompensação.|
 |**Sensores (S)**|Atividade muscular (intenção de movimento)
 Sensores Eletromiografia (EMG) de superfície - Permite diferenciar movimento voluntário de tremor.
-
 Aceleração e frequência do tremor
 Unidade de Medição Inercial (IMU - acelerômetro + giroscópio) - Permite identificar padrão típico do tremor e medir sua intensidade.
-
 Posição e velocidade angular do membro
 Giroscópio da IMU ou encoder no atuador - Necessário para aplicar compensação proporcional e estável.
-
 Torque/força aplicada pelo atuador
 Sensor de torque ou corrente do motor - Garante controle seguro e evita sobrecompensação.|
 
