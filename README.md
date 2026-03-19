@@ -57,7 +57,7 @@ Definição das fontes de dados e da inteligência por trás da solução.
 
 O fluxo de processamento dos dados segue estas etapas:
 
-1. **Extração:** Coleta de dados via arquivos \[CSV/JSON] ou simulação.
+1. **Extração:** Leitura automatizada do arquivo `Parkinsson disease.csv`via biblioteca Pandas.
 2. **Transformação:** Limpeza de nulos, normalização e engenharia de atributos.
 3. **Carga:** Disponibilização dos dados para o treinamento do modelo de IA.
 
