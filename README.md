@@ -54,6 +54,8 @@ Definição das fontes de dados e da inteligência por trás da solução.
 
 A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani), que traduz sinais biométricos imprecisos em decisões de controle graduais.
 
+* **Funções de Pertinência:** As variáveis de entrada e saída são mapeadas em conjuntos nebulosos através de funções triangulares ($trimf$):
+
 \---
 
 ### 5\. Plano de Tratamento de Dados (ETL)
