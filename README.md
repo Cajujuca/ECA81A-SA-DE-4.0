@@ -59,6 +59,11 @@ A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani)
     * **Jitter (Variabilidade de Frequência):** Define a instabilidade do sinal motor.
     * Baixo: [0, 0, 0.005]
     * Alto: [0.004, 0.02, 0.02]
+ 
+    * **PPE (Entropia de Percepção do Período):** Mede a desordem e complexidade dos sinais.
+    * Estável: $[0, 0, 0.25]$
+    * Crítico: $[0.2, 0.5, 0.5]$
+
 
 \---
 
