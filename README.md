@@ -68,7 +68,7 @@ A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani)
     * Monitoramento: [0, 0, 50]
     * Atenção: [30, 70, 100]
     * Urgente: [60, 100, 100]
- * **Funções de Pertinência:** As variáveis de entrada e saída são mapeadas em conjuntos nebulosos através de funções triangulares ($trimf$):
+ * **Regras de Inferência** O comportamento do robô é regido pelas seguintes sentenças lógicas:
 
 \---
 
