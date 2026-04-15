@@ -56,7 +56,8 @@ A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani)
 
 * **Funções de Pertinência:** As variáveis de entrada e saída são mapeadas em conjuntos nebulosos através de funções triangulares ($trimf$):
   * **Entradas (Antecedentes):**
-    * **Entradas (Antecedentes):**
+    * **Jitter (Variabilidade de Frequência):** Define a instabilidade do sinal motor.
+        Define a instabilidade do sinal motor.
 
 \---
 
