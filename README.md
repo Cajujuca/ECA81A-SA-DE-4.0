@@ -69,6 +69,8 @@ A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani)
     * Atenção: [30, 70, 100]
     * Urgente: [60, 100, 100]
  * **Regras de Inferência** O comportamento do robô é regido pelas seguintes sentenças lógicas:
+1. **SE** (Jitter é Alto) OU (PPE é Crítico), **ENTÃO** Risco é Urgente.
+2. **SE** (Jitter é Baixo) E (PPE é Estável), **ENTÃO** Risco é Monitoramento.
 
 \---
 
