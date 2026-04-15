@@ -61,9 +61,14 @@ A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani)
     * Alto: [0.004, 0.02, 0.02]
  
     * **PPE (Entropia de Percepção do Período):** Mede a desordem e complexidade dos sinais.
-    * Estável: $[0, 0, 0.25]$
-    * Crítico: $[0.2, 0.5, 0.5]$
-
+    * Estável: [0, 0, 0.25]
+    * Crítico: [0.2, 0.5, 0.5]
+  * **Saída (Consequente):**  
+    * **Risco de Tremor/Crise:** Determina a intensidade da intervenção.
+    * Monitoramento: [0, 0, 50]
+    * Atenção: [30, 70, 100]
+    * Urgente: [60, 100, 100]
+ * **Funções de Pertinência:** As variáveis de entrada e saída são mapeadas em conjuntos nebulosos através de funções triangulares ($trimf$):
 
 \---
 
