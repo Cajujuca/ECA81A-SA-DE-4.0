@@ -50,6 +50,9 @@ Definição das fontes de dados e da inteligência por trás da solução.
 * **Origem dos Dados:** [Parkinson Disease Detection]([https://www.kaggle.com/datasets/fatemehmohammadinia/heart-attack-dataset-tarik-a-rashid](https://www.kaggle.com/datasets/debasisdotcom/parkinson-disease-detection)).
 * **Lógica de IA:** Controladores Inteligentes/Fuzzy.
 * **Justificativa:** Essa técnica — combinando Redes Neurais e controle inteligente — é ideal para esse problema porque a Doença de Parkinson envolve sinais motores altamente não lineares, variáveis e cheios de ruído, o que dificulta o uso de métodos tradicionais com parâmetros fixos. As Redes Neurais conseguem aprender padrões complexos dos sinais (como diferenciar tremor de movimento voluntário), enquanto técnicas como Lógica Fuzzy ou controle adaptativo permitem gerar respostas suaves e graduais, mais próximas do comportamento humano. Além disso, essas abordagens se adaptam ao paciente ao longo do tempo, acompanhando a progressão da doença, o que torna o sistema mais robusto, personalizado e eficaz em situações reais.
+### 4.1\. Arquitetura Lógica (Lógica Fuzzy)
+
+A inteligência do agente baseia-se em um Sistema de Inferência Fuzzy (Mamdani), que traduz sinais biométricos imprecisos em decisões de controle graduais.
 
 \---
 
