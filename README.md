@@ -95,8 +95,46 @@ Organização simplificada para o Milestone 1:
 * `README.md`: Documentação atual do projeto.
 
 \---
+### 7\. Abordagem escolhida
+Optamos pelas Redes Neurais Artificiais devido à sua robustez no processamento de sinais biomecânicos não lineares. A RNA permite que o agente aprenda a relação entre a intenção muscular e o tremor físico, entregando uma compensação de torque personalizada e adaptável à progressão da doença, conforme os requisitos de segurança e funcionalidade do projeto.
+<img width="856" height="460" alt="image" src="https://github.com/user-attachments/assets/b5529730-cb27-4c37-948c-4df35300ac7a" />
 
-### 7\. Instruções para Execução
+\---
+### 8\. Instruções para Execução
+### 1. Preparação do Ambiente (Requirements)
+Certifique-se de que as bibliotecas listadas no seu arquivo `requirements (2).txt` estão instaladas. Execute este comando na primeira célula:
+
+```python
+!pip install -q tensorflow google-generativeai scikit-fuzzy matplotlib numpy
+```
+
+### 2. Configuração da Inteligência Generativa
+Para que a **Análise Interpretativa** (exigência do Milestone) funcione, você deve configurar a chave da API:
+1.  Obtenha sua chave no [Google AI Studio](https://aistudio.google.com/).
+2.  No código, localize e substitua o campo de configuração:
+    ```python
+    genai.configure(api_key="COLE_SUA_CHAVE_AQUI")
+    # O modelo utilizado será o gemini-3-flash para maior rapidez
+    ```
+
+### 3. Fluxo de Execução do Agente
+Execute as células na sequência abaixo para respeitar o ciclo de vida do agente inteligente:
+
+* **Célula 1 - Importação e Dados:** Carrega o **TensorFlow** para a Rede Neural e simula os dados dos **Sensores (S)** definidos (EMG e IMU).
+* **Célula 2 - Treinamento da RNA:** Define a arquitetura do "cérebro" do agente e inicia o aprendizado (`model.fit`).
+    > **Nota de Desempenho:** Observe o gráfico de **Loss (Perda)**. Como critério de sucesso, a linha deve ser descendente, provando que o agente está aprendendo a prever o torque.
+* **Célula 3 - Predição e Atuador (A):** Simula o processamento em tempo real. A rede recebe os sinais dos sensores e comanda o torque do motor, enviando o log para o **Gemini** gerar a explicação técnica.
+
+### 4. Guia de Solução de Problemas (Troubleshooting)
+* **Erro de Dimensão (Shape):** A Rede Neural espera 3 entradas (EMG, ACC, GYRO). Garanta que o array de entrada tenha o formato `(1, 3)`.
+* **Acesso à API:** Caso receba erro de "403 Forbidden", verifique se sua API Key está ativa e se o modelo `gemini-1.5-flash` está disponível na sua região.
+* **Runtime:** Se o código travar após a instalação das bibliotecas, clique em **"Ambiente de Execução" > "Reiniciar sessão"**.
+
+### 5. Validação do Milestone 3
+O grupo saberá que o objetivo foi atingido se:
+1.  O gráfico mostrar a **evolução do aprendizado** (queda do erro).
+2.  O sistema imprimir um valor de **Torque de Compensação** (ex: `1.2450 Nm`) condizente com a intensidade do tremor.
+3.  O **Gemini** fornecer o diagnóstico teórico, explicando a relação entre o músculo e o motor.
 
 Para reproduzir o ambiente e testar o diagnóstico:
 
