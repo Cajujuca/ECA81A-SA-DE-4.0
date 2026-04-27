@@ -97,7 +97,7 @@ Organização simplificada para o Milestone 1:
 \---
 ### 7\. Abordagem escolhida
 Optamos pelas Redes Neurais Artificiais devido à sua robustez no processamento de sinais biomecânicos não lineares. A RNA permite que o agente aprenda a relação entre a intenção muscular e o tremor físico, entregando uma compensação de torque personalizada e adaptável à progressão da doença, conforme os requisitos de segurança e funcionalidade do projeto.
-<img width="856" height="460" alt="image" src="https://github.com/user-attachments/assets/b5529730-cb27-4c37-948c-4df35300ac7a" />
+<img width="857" height="371" alt="image" src="https://github.com/user-attachments/assets/58da24c8-156e-4fb4-ba05-7c9559162c8b" />
 
 \---
 ### 8\. Instruções para Execução
