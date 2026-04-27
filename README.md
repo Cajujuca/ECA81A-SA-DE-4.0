@@ -127,7 +127,7 @@ Execute as células na sequência abaixo para respeitar o ciclo de vida do agent
 
 ### 4. Guia de Solução de Problemas (Troubleshooting)
 * **Erro de Dimensão (Shape):** A Rede Neural espera 3 entradas (EMG, ACC, GYRO). Garanta que o array de entrada tenha o formato `(1, 3)`.
-* **Acesso à API:** Caso receba erro de "403 Forbidden", verifique se sua API Key está ativa e se o modelo `gemini-1.5-flash` está disponível na sua região.
+* **Acesso à API:** Caso receba erro de "403 Forbidden", verifique se sua API Key está ativa e se o modelo `gemini-3-flash` está disponível na sua região.
 * **Runtime:** Se o código travar após a instalação das bibliotecas, clique em **"Ambiente de Execução" > "Reiniciar sessão"**.
 
 ### 5. Validação do Milestone 3
