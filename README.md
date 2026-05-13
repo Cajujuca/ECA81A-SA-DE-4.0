@@ -188,9 +188,9 @@ Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no 
     * Tratamento de Exceções: Implementação de blocos try/catch para garantir a resiliência do sistema (Safe-Fail) em caso de falhas de rede ou ausência de dados.
 
 * **Validação:**
-    *Conferência Técnica: Todos os cálculos de torque gerados pelo motor Fuzzy e as predições de instabilidade foram validados manualmente pelo grupo para garantir que o atuador não ultrapassasse limites de segurança física.
-    *Acurácia das Interpretações: As justificativas geradas pela IA foram revisadas para assegurar o uso correto dos termos técnicos (como "biomarcadores", "entropia de pitch" e "estabilidade cinemática") e a aderência aos objetivos da Saúde 4.0.
-    *Estabilidade do Sistema: O pipeline foi testado de ponta a ponta, confirmando que a saída final (Relatório Técnico) reflete com precisão os dados coletados na etapa de diagnóstico. 
+    * Conferência Técnica: Todos os cálculos de torque gerados pelo motor Fuzzy e as predições de instabilidade foram validados manualmente pelo grupo para garantir que o atuador não ultrapassasse limites de segurança física.
+    * Acurácia das Interpretações: As justificativas geradas pela IA foram revisadas para assegurar o uso correto dos termos técnicos (como "biomarcadores", "entropia de pitch" e "estabilidade cinemática") e a aderência aos objetivos da Saúde 4.0.
+    * Estabilidade do Sistema: O pipeline foi testado de ponta a ponta, confirmando que a saída final (Relatório Técnico) reflete com precisão os dados coletados na etapa de diagnóstico. 
 
 ---
 © 2026 - Projeto de Inteligência Artificial - Faculdade Engenheiro Salvador Arena
