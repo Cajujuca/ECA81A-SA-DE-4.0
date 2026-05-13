@@ -179,8 +179,14 @@ Para reproduzir o ambiente e testar o diagnóstico:
 
 Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
 
-* **Ferramentas:** Google Gemini (modelos 1.5-flash e 3-flash-preview): Utilizado como o motor central de Inteligência Artificial Explicável (XAI) integrado ao código..
-* **Aplicação:** Apoio na estruturação do código, revisão textual, sugestão de métricas e organização do pipeline de ETL.
+* **Ferramentas:** Google Gemini (modelos 1.5-flash e 3-flash-preview): Utilizado como o motor central de Inteligência Artificial Explicável (XAI) integrado ao código.
+* **Bibliotecas Python:** google-genai (SDK atualizado) para comunicação via API.
+* **Aplicação:**
+* Estruturação do Código: Apoio na migração da biblioteca legada google-generativeai para a nova google-genai, garantindo a compatibilidade com o modelo mais recente.
+* Organização do Pipeline de ETL: Integração do fluxo de leitura do dataset real do Drive (Parkinsson disease.csv) com o tratamento de dados para alimentação da lógica Fuzzy.
+* Revisão Textual e Interpretação: Geração de análises clínicas automatizadas baseadas nos resultados técnicos (Jitter, PPE e Torque), traduzindo dados brutos de engenharia em justificativas fundamentadas para profissionais de saúde.
+* Tratamento de Exceções: Implementação de blocos try/catch para garantir a resiliência do sistema (Safe-Fail) em caso de falhas de rede ou ausência de dados.
+
 * **Validação:** Todos os resultados, métricas de desempenho e interpretações estatísticas foram conferidos e validados tecnicamente pelo grupo.
 
 ---
