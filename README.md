@@ -13,8 +13,8 @@
 * **Instituição:** Faculdade Enhenheiro Salvador Arena (FESA)
 * **Curso:** Engenharia de Controle e Automação
 * **Grupo:** Grupo 8
-* **Integrantes:** Júlia Rodrigues Lima - RA: 062220026
-
+* **Integrantes:**
+  * Júlia Rodrigues Lima - RA: 062220026
   * Gustavo Florencio Simeão - RA: 061230041
   * Leonardo Rodolfo Bortoluci - RA: 062220014
 
