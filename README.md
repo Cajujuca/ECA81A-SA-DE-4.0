@@ -170,7 +170,7 @@ Para reproduzir o ambiente e testar o diagnóstico:
 2. Instale as dependências:
 
 ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt´´´
 
 \---
 ## 🤖 9. Apêndice de IA
