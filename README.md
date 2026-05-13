@@ -179,7 +179,7 @@ Para reproduzir o ambiente e testar o diagnóstico:
 
 Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
 
-* **Ferramentas:** [Ex: Gemini, ChatGPT].
+* **Ferramentas:** Google Gemini (modelos 1.5-flash e 3-flash-preview): Utilizado como o motor central de Inteligência Artificial Explicável (XAI) integrado ao código..
 * **Aplicação:** Apoio na estruturação do código, revisão textual, sugestão de métricas e organização do pipeline de ETL.
 * **Validação:** Todos os resultados, métricas de desempenho e interpretações estatísticas foram conferidos e validados tecnicamente pelo grupo.
 
