@@ -91,8 +91,27 @@ O fluxo de processamento dos dados segue estas etapas:
 3. **Carga:** Disponibilização dos dados para o treinamento do modelo de IA.
 
 \---
+### 6. Evidências Visuais e Desempenho
+*Arquivos armazenados na pasta `/assets/images`.*
 
-### 6\. Estrutura do Repositório
+**Imagem 1: [Interface de Logs do Sistema de Monitoramento]**
+[Demonstra a execução em tempo real do sistema, exibindo a identificação de biomarcadores (frequência de tremor e congelamento de marcha), o cálculo da probabilidade de intervenção e a sugestão clínica gerada pela IA.]
+![Logs do Sistema](assets/images/Captura de tela 2026-05-11 094359.png).
+
+**Imagem 2: [Modelagem da rede Neural]**
+[Demonstra o desempenho do modelo de Deep Learning na classificação dos estados do paciente, apresentando a precisão da rede em distinguir entre movimentos normais, tremores e episódios de "freezing".]
+![Rede Neural](assets/images/Captura de tela 2026-05-11 100757.png).
+
+**Imagem 3: [Predição e Análise interpretativa]**
+[O gráfico demonstra a modelagem dos conjuntos nebulosos (Fuzzy) para as variáveis de entrada e saída do sistema. Ele define os níveis de intensidade (como "baixo", "médio" e "alto") para o tremor detectado e o torque de compensação, permitindo que o algoritmo tome decisões graduais e precisas em vez de apenas "ligado/desligado".]
+![Visualização da Lógica Fuzzy](assets/images/Captura de tela 2026-05-11 104201.png).
+
+**Imagem 4: [Resposta do Gemini a Predição]**
+[Demonstra a resposta do Gemini]
+![Resposta Gemini](assets/images/Captura de tela 2026-05-11 104201.png).
+
+---
+### 6.1\. Estrutura do Repositório
 
 Organização simplificada para o Milestone 1:
 
