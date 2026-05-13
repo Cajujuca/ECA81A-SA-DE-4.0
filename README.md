@@ -174,6 +174,7 @@ Para reproduzir o ambiente e testar o diagnóstico:
 ```
 
 \---
+
 ## 🤖 9. Apêndice de IA
 
 Relato sobre o suporte de ferramentas de Inteligência Artificial Generativa no desenvolvimento:
